@@ -10,3 +10,4 @@ public interface PostResponseMapper {
 //    @Mapping(target = "user", source = "userId")
     PostsResponseDto toPostResponseDto(PostDto postDto);
 }
+

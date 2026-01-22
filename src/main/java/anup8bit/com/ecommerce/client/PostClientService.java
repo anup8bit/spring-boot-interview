@@ -35,7 +35,8 @@ public class PostClientService {
     }
 
     public List<PostsResponseDto> getPosts() {
-        String url = UriComponentsBuilder.fromHttpUrl(BASE_URL+"/posts")
+        String url = UriComponentsBuilder.fromHttpUrl(BASE_URL)
+                .path("/posts")
                 .queryParam("limit", 10)
                 .toUriString();
 

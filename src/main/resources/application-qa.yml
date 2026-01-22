@@ -1,6 +1,4 @@
 spring:
-  profiles:
-    active: qa
   application:
     name: ecommerce-service
   datasource:
@@ -14,4 +12,6 @@ spring:
 
 app:
   api-rate-limits:
-    orderDetailsAggregateApiLimit: 5
+    orderDetailsAggregateApiLimit: 45
+  username: anup027qa
+  password: Anup027gupta_qa
